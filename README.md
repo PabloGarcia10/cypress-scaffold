@@ -1,1 +1,36 @@
-# cypress-scaffolding
+# generator-cypress-scaffolding [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Scaffolding cypress project
+
+## Installation
+
+First, install [Yeoman](http://yeoman.io) and generator-cypress-scaffolding using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+```bash
+npm install -g yo
+npm install -g generator-cypress-scaffolding
+```
+
+Then generate your new project:
+
+```bash
+yo cypress-scaffolding
+```
+
+## Getting To Know Yeoman
+
+ * Yeoman has a heart of gold.
+ * Yeoman is a person with feelings and opinions, but is very easy to work with.
+ * Yeoman can be too opinionated at times but is easily convinced not to be.
+ * Feel free to [learn more about Yeoman](http://yeoman.io/).
+
+## License
+
+unlicense © [Pablo Alves Garcia]()
+
+
+[npm-image]: https://badge.fury.io/js/generator-cypress-scaffolding.svg
+[npm-url]: https://npmjs.org/package/generator-cypress-scaffolding
+[travis-image]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffolding.svg?branch=master
+[travis-url]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffolding
+[daviddm-image]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffolding.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffolding
