@@ -1,13 +1,13 @@
 {
   "name": "generator-cypress-scaffolding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffolding cypress project",
   "homepage": "https://github.com/PabloGarciaQATesting/cypress-scaffolding",
   "author": {
     "name": "Pablo Alves Garcia",
     "email": "pabloalvesgarcia@gmail.com"
   },
-    "files": [
+  "files": [
     "generators"
   ],
   "main": "generators/index.js",
