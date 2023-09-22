@@ -35,14 +35,15 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    //Writting E2E Tests folder
-
     //Writing commands.js
     this.fs.copy(
       this.templatePath('cypress/support/commands.js'),
       this.destinationPath('cypress/support/commands.js')
     );
-
+    this.fs.copy(
+      this.templatePath('cypress/support/e2e.js'),
+      this.destinationPath('cypress/support/e2e.js')
+    );
     //Writing config.js
     this.fs.copy(
       this.templatePath('./cypress.config.js'),
@@ -53,7 +54,6 @@ module.exports = class extends Generator {
       this.templatePath('cypress/fixtures'),
       this.destinationPath('cypress/fixtures')
     );
-
     //Write api requests depending on the user answer 
     if (this.props.api !== false) {
       this.fs.copy(
