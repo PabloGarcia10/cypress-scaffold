@@ -16,8 +16,8 @@ describe('generator-cypress-scaffold:app', () => {
       'cypress/e2e/web',
       'cypress/fixtures',
       'cypress/support/api/requests',
-      'cypress/support/web/elements',
-      'cypress/support/web/objects'
+      'cypress/support/web/pageElements',
+      'cypress/support/web/pageObjects'
 
     ]);
   });

@@ -22,7 +22,7 @@ module.exports = class extends Generator {
       {
         type: 'confirm',
         name: 'web',
-        message: 'Would you like to create the Web elements and objects examples?',
+        message: 'Would you like to create the Web pageElements and pageObjects examples?',
         default: true
       }
     ];
@@ -78,8 +78,8 @@ module.exports = class extends Generator {
       );
       this.log('Writing page elements')
       this.fs.copy(
-        this.templatePath('cypress/support/web/elements'),
-        this.destinationPath('cypress/support/web/elements')
+        this.templatePath('cypress/support/web/pageElements'),
+        this.destinationPath('cypress/support/web/pageEelements')
       );
       this.log('Writing page objects')
       this.fs.copy(

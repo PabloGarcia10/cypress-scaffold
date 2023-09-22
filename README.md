@@ -1,5 +1,8 @@
-# generator-cypress-scaffold [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> scaffold cypress project
+# generator-cypress-scaffold
+
+[![NPM version][npm-image]][npm-url]
+
+> Scaffold cypress project
 
 ## Installation
 
@@ -16,21 +19,32 @@ Then generate your new project:
 yo cypress-scaffold
 ```
 
-## Getting To Know Yeoman
+## Usage
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+This package provides both API and WEB tests functions that can help you in your validations.
+
+WEB:
+
+* Mapping elements by using Page Elements
+* Interaction with elements by Page Objects
+
+API:
+* Methods used in this project: GET, POST, PATCH, PUT and DELETE.
+* Feel free to add your own methods or change existing ones according to what you need
+
+Configs:
+* You can (and should) change the baseUrl in cypress.config.js file. You can also change by CLI by running the following code:
+
+```bash
+npx cypress open --env version= "RequiredEnvironment"
+```
+
+Remember to change the <"RequiredEnvironment"> by your env. Ex.: 'Stage', 'Preprod', 'QA', etc.
 
 ## License
 
-unlicense © [Pablo Alves Garcia]()
+UNLICENSED © [Pablo Alves Garcia]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-cypress-scaffold.svg
 [npm-url]: https://npmjs.org/package/generator-cypress-scaffold
-[travis-image]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffold.svg?branch=master
-[travis-url]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffold
-[daviddm-image]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffold.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffold

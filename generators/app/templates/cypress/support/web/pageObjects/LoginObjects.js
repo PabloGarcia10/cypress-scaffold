@@ -1,4 +1,4 @@
-import LoginElements from "../elements/LoginElements"
+import LoginElements from "../pageElements/LoginElements"
 
 export class LoginObjects {
     visit(){
