@@ -8,7 +8,7 @@ context('First configuration of automation project', () => {
     api.executePost('endpoint')
     api.executePatch('endpoint')
     api.executePut('endpoint')
-    api.executeDelete('endpointtest')
+    api.executeDelete('endpoint')
   })
 });
 
