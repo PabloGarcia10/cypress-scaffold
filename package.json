@@ -79,10 +79,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PabloGarciaQATesting/generator-cypress-scaffolding.git"
+    "url": "git+https://github.com/PabloGarciaQATesting/cypress-scaffolding.git"
   },
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/PabloGarciaQATesting/generator-cypress-scaffolding/issues"
+    "url": "https://github.com/PabloGarciaQATesting/cypress-scaffolding/issues"
   }
 }
