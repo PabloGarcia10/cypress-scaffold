@@ -1,6 +1,6 @@
 {
   "name": "generator-cypress-scaffolding",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scaffolding cypress project",
   "homepage": "https://github.com/PabloGarciaQATesting/cypress-scaffolding",
   "author": {
