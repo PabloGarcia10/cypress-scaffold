@@ -33,7 +33,7 @@ module.exports = defineConfig({
         preprod: ""
       }
 
-      config.baseUrl = `https://${envs[version]}.com`
+      config.baseUrl = `https://www.${envs[version]}.com`
       return config
     },
   },
