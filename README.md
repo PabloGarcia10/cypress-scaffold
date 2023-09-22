@@ -1,19 +1,19 @@
-# generator-cypress-scaffolding [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Scaffolding cypress project
+# generator-cypress-scaffold [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> scaffold cypress project
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-cypress-scaffolding using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-cypress-scaffold using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-cypress-scaffolding
+npm install -g generator-cypress-scaffold
 ```
 
 Then generate your new project:
 
 ```bash
-yo cypress-scaffolding
+yo cypress-scaffold
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo cypress-scaffolding
 unlicense © [Pablo Alves Garcia]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-cypress-scaffolding.svg
-[npm-url]: https://npmjs.org/package/generator-cypress-scaffolding
-[travis-image]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffolding.svg?branch=master
-[travis-url]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffolding
-[daviddm-image]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffolding.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffolding
+[npm-image]: https://badge.fury.io/js/generator-cypress-scaffold.svg
+[npm-url]: https://npmjs.org/package/generator-cypress-scaffold
+[travis-image]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffold.svg?branch=master
+[travis-url]: https://travis-ci.com/PabloGarciaQATesting/generator-cypress-scaffold
+[daviddm-image]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffold.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/PabloGarciaQATesting/generator-cypress-scaffold

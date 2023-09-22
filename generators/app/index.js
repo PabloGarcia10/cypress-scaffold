@@ -8,7 +8,7 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     this.log(
       yosay(
-        `Welcome to the ${chalk.green('generator-cypress-scaffolding')}!`
+        `Welcome to the ${chalk.green('generator-cypress-scaffold')}!`
       )
     );
 

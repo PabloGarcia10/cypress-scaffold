@@ -1,8 +1,8 @@
 {
-  "name": "generator-cypress-scaffolding",
+  "name": "generator-cypress-scaffold",
   "version": "1.0.0",
-  "description": "Scaffolding cypress project",
-  "homepage": "https://github.com/PabloGarciaQATesting/cypress-scaffolding",
+  "description": "scaffold cypress project",
+  "homepage": "https://github.com/PabloGarciaQATesting/cypress-scaffold",
   "author": {
     "name": "Pablo Alves Garcia",
     "email": "pabloalvesgarcia@gmail.com"
@@ -79,10 +79,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PabloGarciaQATesting/cypress-scaffolding.git"
+    "url": "git+https://github.com/PabloGarciaQATesting/cypress-scaffold.git"
   },
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/PabloGarciaQATesting/cypress-scaffolding/issues"
+    "url": "https://github.com/PabloGarciaQATesting/cypress-scaffold/issues"
   }
 }
