@@ -1,13 +1,13 @@
 {
   "name": "generator-cypress-scaffolding",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Scaffolding cypress project",
   "homepage": "https://github.com/PabloGarciaQATesting/cypress-scaffolding",
   "author": {
     "name": "Pablo Alves Garcia",
     "email": "pabloalvesgarcia@gmail.com"
   },
-  "files": [
+    "files": [
     "generators"
   ],
   "main": "generators/index.js",
@@ -77,6 +77,12 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "PabloGarciaQATesting/generator-cypress-scaffolding",
-  "license": "unlicense"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGarciaQATesting/generator-cypress-scaffolding.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PabloGarciaQATesting/generator-cypress-scaffolding/issues"
+  }
 }
