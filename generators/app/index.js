@@ -46,7 +46,7 @@ module.exports = class extends Generator {
     );
     //Writing config.js
     this.fs.copy(
-      this.templatePath('./cypress.config.js'),
+      this.templatePath('cypress.config.js'),
       this.destinationPath('./cypress.config.js')
     )
     //Writing fixtures

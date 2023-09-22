@@ -29,11 +29,11 @@ module.exports = defineConfig({
       })
       const version = config.env.VERSION || 'stage'
       const envs = {
-        stage: "stage",
-        preprod: "preprod"
+        stage: "google",
+        preprod: ""
       }
 
-      config.baseUrl = `https:/yourProductWebsite-${envs[version]}.com`
+      config.baseUrl = `https://www.${envs[version]}.com`
       return config
     },
   },
