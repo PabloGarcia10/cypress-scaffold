@@ -63,7 +63,7 @@ module.exports = class extends Generator {
         this.destinationPath('cypress/support/api/requests')
       )
     }
-    
+
     //Write web elements and objects depending on the user answer 
     if (this.props.web !== false) {
       this.fs.copy(
@@ -72,7 +72,7 @@ module.exports = class extends Generator {
       );
       this.fs.copy(
         this.templatePath('cypress/support/web/pageElements'),
-        this.destinationPath('cypress/support/web/pageEelements')
+        this.destinationPath('cypress/support/web/pageElements')
       );
       this.fs.copy(
         this.templatePath('cypress/support/web/pageObjects'),
