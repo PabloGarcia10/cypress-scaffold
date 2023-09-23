@@ -1,8 +1,10 @@
-import { LoginObjects } from "../../support/web/objects/LoginObjects";
+import { LoginObjects } from "../../support/web/pageObjects/LoginObjects";
 
 const login = new LoginObjects()
 
 context('web test example', () => {
-    login.visit()
-    login.login()
+    it('test example', () => {
+        login.visit()
+        login.login()
+    });
 });

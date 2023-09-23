@@ -1,4 +1,4 @@
-import { ApiRest } from "../../support/requests/ApiRest"
+import { ApiRest } from "../../support/api/requests/ApiRest"
 
 const api = new ApiRest()
 
